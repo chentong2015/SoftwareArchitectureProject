@@ -1,4 +1,4 @@
-package eviction_policy.node;
+package cache_manager.node;
 
 import java.util.Collection;
 import java.util.concurrent.atomic.AtomicInteger;

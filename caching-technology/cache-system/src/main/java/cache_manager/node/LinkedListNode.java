@@ -1,4 +1,4 @@
-package eviction_policy.node;
+package cache_manager.node;
 
 public interface LinkedListNode<V> {
 

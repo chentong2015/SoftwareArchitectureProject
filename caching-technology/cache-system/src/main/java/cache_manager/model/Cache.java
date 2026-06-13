@@ -1,4 +1,4 @@
-package eviction_policy.model;
+package cache_manager.model;
 
 import java.util.Optional;
 

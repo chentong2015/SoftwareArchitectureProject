@@ -1,24 +1,23 @@
-package eviction_policy;
+package cache_manager;
 
-import eviction_policy.model.Cache;
-import eviction_policy.model.CacheElement;
-import eviction_policy.node.DoublyLinkedList;
-import eviction_policy.node.LinkedListNode;
+import cache_manager.model.Cache;
+import cache_manager.model.CacheElement;
+import cache_manager.node.DoublyLinkedList;
+import cache_manager.node.LinkedListNode;
 
 import java.util.Map;
 import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
-
-public class LRUCacheManager<K, V> implements Cache<K, V> {
+public class CacheManager<K, V> implements Cache<K, V> {
 
     private int size;
     private Map<K, LinkedListNode<CacheElement<K, V>>> linkedListNodeMap;
     private DoublyLinkedList<CacheElement<K, V>> doublyLinkedList;
     private ReentrantReadWriteLock lock = new ReentrantReadWriteLock();
 
-    public LRUCacheManager(int size) {
+    public CacheManager(int size) {
         this.size = size;
         this.linkedListNodeMap = new ConcurrentHashMap<>(size);
         this.doublyLinkedList = new DoublyLinkedList<>();
