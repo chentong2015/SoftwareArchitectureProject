@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/remote-procedure-call/pom.xml" />
         <option value="$PROJECT_DIR$/caching-technology/pom.xml" />
+        <option value="$PROJECT_DIR$/remote-procedure-call/dubbo-rpc/pom.xml" />
       </list>
     </option>
   </component>
