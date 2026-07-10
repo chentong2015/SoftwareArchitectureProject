@@ -1,2 +1,0 @@
-DDD: Domain Driven Development
-以不同的Domain来驱动项目的开发，驱动项目结构的变化
