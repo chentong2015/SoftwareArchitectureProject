@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/remote-procedure-call/pom.xml" />
         <option value="$PROJECT_DIR$/caching-technology/pom.xml" />
         <option value="$PROJECT_DIR$/remote-procedure-call/dubbo-rpc/pom.xml" />
+        <option value="$PROJECT_DIR$/remote-procedure-call/rpc-server/pom.xml" />
+        <option value="$PROJECT_DIR$/remote-procedure-call/rpc-client/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

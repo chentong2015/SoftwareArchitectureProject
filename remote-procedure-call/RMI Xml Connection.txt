@@ -1,8 +1,8 @@
-RMIÊÇÕë¶ÔJava¶øÑÔ£¬Ò²ËãÊÇÒ»ÖÖRPC
-ÃæÏò¶ÔÏó±à³Ì£¬Ò²¿ÉÒÔ³ÉÎªÔ¶³Ìµ÷ÓÃ»òÕß"Ô¶³Ì·½·¨µ÷ÓÃ"
+RMIæ˜¯é’ˆå¯¹Javaè€Œè¨€ï¼Œä¹Ÿç®—æ˜¯ä¸€ç§RPC
+é¢å‘å¯¹è±¡ç¼–ç¨‹ï¼Œä¹Ÿå¯ä»¥æˆä¸ºè¿œç¨‹è°ƒç”¨æˆ–è€…"è¿œç¨‹æ–¹æ³•è°ƒç”¨"
 https://docs.oracle.com/javase/7/docs/technotes/guides/rmi/hello/hello-world.html
 
-·¢ËÍXMLÇëÇóXmlRequest
+// å‘é€XMLè¯·æ±‚XmlRequest
 public static XmlDocument createXmlDocument(XmlSessionID xmlSessionID, String pkgName) throws Exception {
    XmlRequest xmlRequest = new XmlRequest(XmlRequest.strREQUEST_TYPE_SESSION, "Standard", AssemblyConstants.GET_ASSEMBLY_EXECUTION_CONTEXTS, xmlSessionID);
    GetAssemblyExecutionContextsRequest getAssemblyExecutionContextsRequest = new GetAssemblyExecutionContextsRequest(pkgName);
@@ -11,7 +11,7 @@ public static XmlDocument createXmlDocument(XmlSessionID xmlSessionID, String pk
    return XmlDocument.create(xmlWriter);
 }
 
-½ÓÊÜXMLÇëÇó, ·µ»ØXmlAnswer
+// æ¥å—XMLè¯·æ±‚, è¿”å›XmlAnswer
 GetAssemblyExecutionContextsRequest getRequest = GetAssemblyExecutionContextsRequest.createFromXml(xmlReader);
 AssemblyExecutionContexts executionContexts = assemblyHome.getAssemblyExecutionContexts(getRequest.getPackageCode());
 XmlDocument xmlAnswer = GetAssemblyExecutionContextsReply.createXmlDocument(xmlRequestParser, getRequest.getPackageCode(), executionContexts);
