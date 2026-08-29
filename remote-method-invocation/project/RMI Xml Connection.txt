@@ -1,6 +1,4 @@
-RMI是针对Java而言，也算是一种RPC
-面向对象编程，也可以成为远程调用或者"远程方法调用"
-https://docs.oracle.com/javase/7/docs/technotes/guides/rmi/hello/hello-world.html
+TODO. RMI实战项目案例
 
 // 发送XML请求XmlRequest
 public static XmlDocument createXmlDocument(XmlSessionID xmlSessionID, String pkgName) throws Exception {
