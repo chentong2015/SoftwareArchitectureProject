@@ -1,7 +1,7 @@
-package org.example.server;
+package server;
 
-import org.example.api.Search;
-import org.example.api.SearchQuery;
+import api.Search;
+import api.SearchQuery;
 
 import java.rmi.Naming;
 import java.rmi.registry.LocateRegistry;

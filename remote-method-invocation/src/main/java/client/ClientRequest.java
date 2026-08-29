@@ -1,6 +1,6 @@
-package org.example.client;
+package client;
 
-import org.example.api.Search;
+import api.Search;
 
 import java.rmi.Naming;
 

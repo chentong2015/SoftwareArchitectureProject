@@ -3,11 +3,8 @@ Remote Method Invocation (RMI)
 - 客户机上运行的程序可以调用远程服务器上的对象, 在网络环境中分布操作
 - 依赖于接口, 通过传递一个接口来隐藏底层的实现细节
 
-https://zh.wikipedia.org/wiki/Java%E8%BF%9C%E7%A8%8B%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8
-
-TODO. RMI本质是RPC Java实现(Client-side Proxy协议已定义)
+TODO. RMI本质是RPC的实现
 RMI is a pure java solution to Remote Procedure Calls (RPC)
 and is used to create the distributed applications in java.
 
-面向对象编程，也可以成为远程调用或者"远程方法调用"
 https://docs.oracle.com/javase/7/docs/technotes/guides/rmi/hello/hello-world.html

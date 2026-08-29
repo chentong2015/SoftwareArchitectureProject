@@ -1,8 +1,9 @@
-package org.example.api;
+package api;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
+// A remote object is an instance of a class that implements a remote interface.
 // To implement the remote interface, the class should extend to UnicastRemoteObject
 public class SearchQuery extends UnicastRemoteObject implements Search {
 
