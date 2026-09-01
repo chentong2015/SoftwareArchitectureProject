@@ -19,11 +19,14 @@
     <file url="file://$PROJECT_DIR$/remote-procedure-call/rpc-server/src/main/java/com/rpc/server/request/RequestHandler.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/remote-procedure-call/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/remote-procedure-call/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/rpc-dubbo/src/main/java/demo/framework/data_model/Invocation.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/rpc-dubbo/src/main/java/demo/framework/data_model/URL.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/rpc-dubbo/src/main/java/demo/framework/factory/ProtocolFactory.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/rpc-dubbo/src/main/java/demo/framework/factory/ProxyFactory.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/rpc-dubbo/src/main/java/master/BaseDubboSPI.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc-dubbo/design/Dubbo RPC框架.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc-dubbo/src/main/java/custom/framework/data_model/Invocation.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc-dubbo/src/main/java/custom/framework/data_model/URL.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc-dubbo/src/main/java/custom/framework/factory/ProtocolFactory.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc-dubbo/src/main/java/custom/framework/factory/ProxyFactory.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc-dubbo/src/main/java/custom/provider/ServiceProvider.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/rpc-dubbo/src/main/java/custom/register/LocalRegister.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/rpc-dubbo/src/main/java/master/DemoDubboSPI.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpc-dubbo/src/main/java/master/aop/CarWrapper.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpc-dubbo/src/main/java/master/api/Car.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpc-dubbo/src/main/java/master/ioc/Trucker.java" charset="UTF-8" />
