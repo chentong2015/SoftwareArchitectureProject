@@ -10,8 +10,8 @@ import java.util.concurrent.Executors;
 
 public class MainServer {
 
-    // RPC·şÎñ¶Ë¶ÔÍâ±©Â¶socket½Ó¿Ú£¬½ÓÊÕÁíÍâ½ø³ÌÀ´µÄÇëÇó
-    // Ê¹ÓÃÒì²½µÄ·½Ê½À´´¦ÀíÇëÇó£¬±ÜÃâRPC·şÎñ¶ËÔÚ½ÓÊÕÇëÇóÊ±±»×èÈû
+    // RPCæœåŠ¡ç«¯å¯¹å¤–æš´éœ²socketæ¥å£ï¼Œæ¥æ”¶å¦å¤–è¿›ç¨‹æ¥çš„è¯·æ±‚
+    // ä½¿ç”¨å¼‚æ­¥çš„æ–¹å¼æ¥å¤„ç†è¯·æ±‚ï¼Œé¿å…RPCæœåŠ¡ç«¯åœ¨æ¥æ”¶è¯·æ±‚æ—¶è¢«é˜»å¡
     public static void main(String[] args) throws IOException {
        try(ServerSocket serverSocket = new ServerSocket(1234)){
            Executor executor = Executors.newFixedThreadPool(10);
@@ -19,7 +19,7 @@ public class MainServer {
                System.out.println("wait connection");
                Socket socket = serverSocket.accept();
                System.out.println("connection ok");
-               // Ö´ĞĞÍ¨Ñ¶³É¹¦µÄsocket
+               // æ‰§è¡Œé€šè®¯æˆåŠŸçš„socket
                executor.execute(new RequestHandler(socket));
            }
        }

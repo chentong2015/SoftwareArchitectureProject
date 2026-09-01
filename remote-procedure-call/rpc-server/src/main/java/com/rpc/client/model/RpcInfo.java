@@ -2,7 +2,7 @@ package com.rpc.client.model;
 
 import java.io.Serializable;
 
-// RPC·şÎñ¶Ë´«µİµÄInfo¶ÔÏóĞèÒªºÍ¿Í»§¶ËÂ·¾¶Ò»ÖÂ
+// RPCæœåŠ¡ç«¯ä¼ é€’çš„Infoå¯¹è±¡éœ€è¦å’Œå®¢æˆ·ç«¯è·¯å¾„ä¸€è‡´
 public class RpcInfo implements Serializable {
 
     private String packageName;

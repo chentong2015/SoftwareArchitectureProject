@@ -8,7 +8,7 @@ import java.net.Socket;
 
 public class RequestHandler implements Runnable {
 
-    // ´¦ÀíÇëÇóÊ±ĞèÒª´ÓSocketÖĞ»ñÈ¡µ½ÇëÇóµÄĞÅÏ¢
+    // å¤„ç†è¯·æ±‚æ—¶éœ€è¦ä»Socketä¸­è·å–åˆ°è¯·æ±‚çš„ä¿¡æ¯
     private Socket socket;
 
     public RequestHandler(Socket socket) {
@@ -26,7 +26,7 @@ public class RequestHandler implements Runnable {
         }
     }
 
-    // Í¨¹ı·´Éä»ñÈ¡µ½Òªµ÷ÓÃµÄ·şÎñµÄĞÅÏ¢£¬µ÷ÓÃ·½·¨
+    // é€šè¿‡åå°„è·å–åˆ°è¦è°ƒç”¨çš„æœåŠ¡çš„ä¿¡æ¯ï¼Œè°ƒç”¨æ–¹æ³•
     private void invokeMethod(RpcInfo rpcInfo) throws Exception {
         String classFullPath = rpcInfo.getPackageName() + "." + rpcInfo.getClazzName();
         Class cls = Class.forName(classFullPath);

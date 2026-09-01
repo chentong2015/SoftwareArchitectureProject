@@ -10,15 +10,26 @@
     <file url="file://$PROJECT_DIR$/caching-technology/ehcache/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/caching-technology/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/caching-technology/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/remote-method-invocation/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/remote-method-invocation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/remote-procedure-call/RMI XmlConnection.txt" charset="GBK" />
     <file url="file://$PROJECT_DIR$/remote-procedure-call/design/RPC Call.txt" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/remote-procedure-call/rpc-client/src/main/java/com/rpc/client/MainClient.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/remote-procedure-call/rpc-client/src/main/java/com/rpc/client/model/RpcInfo.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/remote-procedure-call/rpc-server/src/main/java/com/rpc/client/model/RpcInfo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/remote-procedure-call/rpc-client/src/main/java/com/rpc/client/MainClient.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remote-procedure-call/rpc-client/src/main/java/com/rpc/client/model/RpcInfo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remote-procedure-call/rpc-server/src/main/java/com/rpc/client/model/RpcInfo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remote-procedure-call/rpc-server/src/main/java/com/rpc/server/MainServer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remote-procedure-call/rpc-server/src/main/java/com/rpc/server/request/RequestHandler.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/remote-procedure-call/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/remote-procedure-call/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc-dubbo/src/main/java/demo/framework/data_model/Invocation.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc-dubbo/src/main/java/demo/framework/data_model/URL.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc-dubbo/src/main/java/demo/framework/factory/ProtocolFactory.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc-dubbo/src/main/java/demo/framework/factory/ProxyFactory.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc-dubbo/src/main/java/master/BaseDubboSPI.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc-dubbo/src/main/java/master/aop/CarWrapper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc-dubbo/src/main/java/master/api/Car.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc-dubbo/src/main/java/master/ioc/Trucker.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc-dubbo/src/main/java/master/proxy/CarProxy.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc-rmi/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc-rmi/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

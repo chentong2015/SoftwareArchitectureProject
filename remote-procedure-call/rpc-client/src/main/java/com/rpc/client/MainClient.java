@@ -8,18 +8,18 @@ import java.net.Socket;
 
 public class MainClient {
 
-    // ¿Í»§¶ËÍ¨¹ıServer¶Ë±©Â¶µÄSocket½Ó¿ÚÀ´½¨Á¢Í¨Ñ¶£¬Ö´ĞĞÖ¸¶¨APIµÄµ÷ÓÃ
+    // å®¢æˆ·ç«¯é€šè¿‡Serverç«¯æš´éœ²çš„Socketæ¥å£æ¥å»ºç«‹é€šè®¯ï¼Œæ‰§è¡ŒæŒ‡å®šAPIçš„è°ƒç”¨
     public static void main(String[] args) throws IOException {
         Socket socket = new Socket("127.0.0.1", 1234);
 
-        // ÊµÕ½ÏîÄ¿ÖĞĞèÒªÍ¨¹ı"·şÎñ·¢ÏÖ"À´ÅĞ¶ÏÒªµ÷ÓÃµÄ·şÎñ
+        // å®æˆ˜é¡¹ç›®ä¸­éœ€è¦é€šè¿‡"æœåŠ¡å‘ç°"æ¥åˆ¤æ–­è¦è°ƒç”¨çš„æœåŠ¡
         RpcInfo rpcInfo = new RpcInfo();
         rpcInfo.setPackageName("com.rpc.server.service");
         rpcInfo.setClazzName("ServerDao");
         rpcInfo.setMethodName("print");
         rpcInfo.setArgs(new Object[]{"tong"});
 
-        // ĞèÒªÏòServer¶ËµÄ½ø³Ì·¢ËÍ·â×°µÄ¶ÔÏóÁ÷
+        // éœ€è¦å‘Serverç«¯çš„è¿›ç¨‹å‘é€å°è£…çš„å¯¹è±¡æµ
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(socket.getOutputStream());
         objectOutputStream.writeObject(rpcInfo);
         objectOutputStream.flush();
