@@ -7,7 +7,7 @@ Service Properties:
 - Business activity with a specified outcome
 - Composed of other services
 
-TODO. SOA Patterns:
+TODO. SOA Patterns
 - Service provider
 - Service broker, service registry or service repository
 - Service requester/consumer
