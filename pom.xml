@@ -8,8 +8,9 @@
     <artifactId>SoftwareArchitectureProject</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+
     <modules>
-        <module>rpc-rmi</module>
+        <module>remote-procedure-call/rpc-custom</module>
     </modules>
 
     <properties>
