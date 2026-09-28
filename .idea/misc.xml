@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/rpc-dubbo/pom.xml" />
         <option value="$PROJECT_DIR$/remote-procedure-call/rpc-custom/rpc-client/pom.xml" />
         <option value="$PROJECT_DIR$/remote-procedure-call/rpc-custom/rpc-server/pom.xml" />
+        <option value="$PROJECT_DIR$/event-driven/event-application/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
