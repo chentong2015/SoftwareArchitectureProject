@@ -1,0 +1,14 @@
+TODO. Event Driven Architecture
+通过Event事件来解耦(Decoupled)系统依赖, 避免流程式编程
+基于Event事件来触发(激活)不同层次的业务逻辑
+基于Event事件响应来实现自动化工作流
+
+- Event broker               传输事件/管理生命周期
+- Event emitters (Publisher) 事件的发送者不关心消费者是否存在
+- Event consumers (Listener) 消费者对事件作出反应
+- Event structure            事件包含状态时间等信息, 比如Security incident安全事件
+
+设计实现:
+Building distributed real-time data processing streams of events.
+
+https://spring.io/event-driven
